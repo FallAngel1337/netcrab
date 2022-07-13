@@ -11,7 +11,7 @@ macro_rules! help {
 }
 
 const HELP_MENU: &str = "rustcat v0.1.0
-Usage: rustcat [OPTION] [<addr:port>]
+Usage: netcrab [OPTION] [<addr:port>]
 Options:
 -h,  --help           Show this message
 -l,  --listen         Listen mode\n";
