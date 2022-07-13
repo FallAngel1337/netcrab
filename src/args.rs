@@ -19,8 +19,8 @@ Options:
 
 #[derive(Debug, Clone, Copy)]
 pub struct NetCrabArgs {
-    addr: Option<SocketAddr>,
-    listen: bool
+    pub addr: Option<SocketAddr>,
+    pub listen: bool
 }
 
 impl NetCrabArgs {
